@@ -39,8 +39,7 @@ This project trains a **Convolutional Neural Network (CNN)** to classify differe
 ## 🚀 How to Use
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/Fruit-Classification-CNN.git
-cd Fruit-Classification-CNN
+git clone https://github.com/soy-praveen/fruit-classifier.git
 pip install tensorflow keras numpy matplotlib
 python train.py
 python predict.py --image path_to_fruit.jpg
