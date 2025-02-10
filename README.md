@@ -1,11 +1,11 @@
-# 🍎 Fruit Classification Using CNN (Fruits-360 Dataset)
+# Fruit Classification Using CNN (Fruits-360 Dataset)
 
-## 📌 Project Overview
+## Project Overview
 This project trains a **Convolutional Neural Network (CNN)** to classify different types of fruits using the **Fruits-360 dataset** from Kaggle. The model leverages **TensorFlow, Keras**, and **transfer learning** with **VGG16** for better accuracy. It can predict fruit categories from images, making it useful for **fruit recognition, quality control, and educational tools**.
 
 ---
 
-## 📂 Dataset Details
+## Dataset Details
 - **Dataset**: [Fruits-360](https://www.kaggle.com/datasets/moltean/fruits)
 - **Image Size**: 100x100 pixels
 - **Classes**: Multiple fruit categories
@@ -15,7 +15,7 @@ This project trains a **Convolutional Neural Network (CNN)** to classify differe
 
 ---
 
-## 🏗 Model Architecture
+## Model Architecture
 - **Pretrained Model**: VGG16 (Feature extraction)
 - **Custom Layers**:
   - `Flatten()`
@@ -29,15 +29,15 @@ This project trains a **Convolutional Neural Network (CNN)** to classify differe
 
 ---
 
-## 📊 Results & Performance
+## Results & Performance
 - **Training & Validation Accuracy**: 📈 Tracked using `matplotlib`
 - **Loss Reduction**: 📉 Achieved using `EarlyStopping`
 - **Testing**: Predicts fruit type from custom images
 
 ---
 
-## 🚀 How to Use
-### 1️⃣ Clone Repository
+## How to Use
+### Clone Repository
 ```bash
 git clone https://github.com/soy-praveen/fruit-classifier.git
 pip install tensorflow keras numpy matplotlib
